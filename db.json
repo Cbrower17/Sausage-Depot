@@ -94,14 +94,14 @@
             "price" : 1,
             "type" : "Hat",
             "image" : ""
-        }
+        },
         {
             "id" : 3,
             "name" : "Deodorant",
             "price" : 1,
             "type" : "toiletries",
             "image" : ""
-        },
+        }
 
 
     ]
