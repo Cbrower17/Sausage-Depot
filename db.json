@@ -1,0 +1,66 @@
+{
+    "Meats" : [
+        {
+            "id" : 1,
+            "name" : "Jamón",
+            "price" : 10,
+            "origin" : "Spain",
+            "animal" : "swine",
+            "type" : "Cured meat",
+            "image" : "https://www.jamon.com/images/content/image-jamon-artisanal-hams.jpg",
+            "description" : "Jamón is a kind of dry-cured ham produced in Spain. It is one of the most globally recognized food items of Spanish cuisine. It is also regularly a component of tapas. Most jamón is commonly called jamón serrano in Spain. Jamón is the Spanish word for ham."
+        },
+        {
+            "id" : 2,
+            "name" :"Bratwurst",
+            "price" : 1,
+            "origin" : "Germany",
+            "animal" : "swine",
+            "type" : "Sausage",
+            "image" : "https://worstroom.com/wp-content/uploads/2021/12/bratwurst-pork-sausage.jpg",
+            "description" : "Bratwurst is a type of German sausage made from pork or, less commonly, beef or veal. The name is derived from the Old High German Brätwurst, from brät-, finely chopped meat, and Wurst, sausage, although in modern German it is often associated with the verb braten, to pan fry or roast."
+        },
+        {
+            "id" : 3,
+            "name" :"Chorizo",
+            "price" : 1,
+            "origin" : "Europe",
+            "animal" : "swine",
+            "type" : "Sausage",
+            "image" : "http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcQX4S7_7m2eCbM5-GtDxkk7-WI7kiYpQnmK8FrFFLR9HP3tKhy6fjks5UkqQbKLfS8m",
+            "description" : "Chorizo is a type of pork cured meat originating from the Iberian Peninsula. In Europe, chorizo is a fermented, cured, smoked meat, which may be sliced and eaten without cooking, or added as an ingredient to add flavor to other dishes."
+        },
+        {
+            "id" : 4,
+            "name" :"Kurobuta Sausage",
+            "price" : 1,
+            "origin" : "Japan",
+            "animal" : "swine",
+            "type" : "Sausage",
+            "image" : "https://nymtc.com/wp-content/uploads/KUROBUTA-SAUSAGE.jpg",
+            "description" : "Berkshire, also known as kurobuta, is a breed of black-haired pig with extremely rich marbling, excellent flavor, and high umami content. These Japanese sausages are produced using this high quality pork resulting in an abundantly umami taste and rich nutty flavor accented by light smoking."
+        },
+        {
+            "id" : 5,
+            "name" :"Butifarra",
+            "price" : 1,
+            "origin" : "Spain"  ,
+            "animal" : "swine",
+            "type" : "Sausage",
+            "image" : "https://cdn.shopify.com/s/files/1/0618/0906/6161/products/ButifarraCooked_1100x.jpg?v=1653429006",
+            "description" : "Botifarra (Spanish: butifarra; French: boutifarre) is a type of sausage and one of the most important dishes of the Catalan cuisine. Botifarra is based on ancient recipes, either the Roman sausage botulu or the lucanica, made of raw pork and spices, with variants today in Italy and in the Portuguese and Brazilian linguiça."
+        },
+        {
+            "id" : 6,
+            "name" :"Frankfurter",
+            "price" : 1,
+            "origin" : "Austria",
+            "animal" : "swine",
+            "type" : "Sausage",
+            "image" : "https://bakeitwithlove.com/wp-content/uploads/2022/09/what-is-frankfurter.jpg",
+            "description" : "A Frankfurter Würstchen is a thin parboiled sausage in a casing of sheep's intestine. The flavor is acquired by a method of low temperature smoking. For consumption, Frankfurters are occasionally not boiled; they are heated in hot water for only about eight minutes to prevent the skin from bursting."
+        }
+
+
+    ]
+}
