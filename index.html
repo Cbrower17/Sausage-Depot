@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <head>
   <title>Sausage Depot</title>
   <link rel="stylesheet" type="text/css" href="styles.css" />
@@ -16,4 +16,77 @@
     src="https://blog.solostove.com/wp-content/uploads/2019/07/hotdogs.gif"
     alt="logo"
   />
-</body>
+</body> -->
+
+<html>
+    <head>
+      <title>Sausage Depot</title>
+        <link rel="stylesheet" type="text/css" href="./style.css" />
+          <script defer type="text/javascript" src="src/index.js"></script>
+    </head>
+    <body>
+       <header>
+        <img src="sources/sausage-depot-high-resolution-color-logo (2).png" 
+        width="400" 
+        height="300"
+        style="position: absolute; top: 0; left: 0;">
+
+           
+       </header>
+       <div id="container">
+            <section id="Meat-Menu">
+                
+                <div id="Meat">
+                    <!-- Add your menu items here! -->
+                </div>
+            </section>
+
+            <section id="dish">
+                <!-- All the dish details are in here! -->
+                <img id="dish-image" src=""/>
+                <div id="dish-text">
+                    <h3 id="dish-name"></h3>
+                    <p id="dish-description"></p>
+                    <h3 id="dish-price"></h3>
+                </div>
+                
+                <h2 style="font-size: 40px; margin-top: 400px;">Meats</h2>
+
+              <h2 style="font-size: 40px;">Favorites</h2>
+              
+                <h2 style="font-size: 40px;">Show Me The Meats</h2>
+
+                <h2 style="font-size: 40px;">Merch</h2>
+
+
+              
+                
+                <form id="cart-form" class="cart-form">
+                  <input id="cart-amount" />
+                  <input type="submit" class="cart-submit" value="🛒">
+                </form>
+                
+                <style>
+                  .cart-form {
+                    position: relative;
+                  }
+                  
+                  .cart-submit {
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    width: 1.5em;
+                    height: 1.5em;
+                    border: none;
+                    background-color: transparent;
+                    font-size: 5em;
+                    text-align: center;
+                    cursor: pointer;
+                  }
+                </style>
+                
+                
+            </section>
+        </div>
+    </body>
+</html>
