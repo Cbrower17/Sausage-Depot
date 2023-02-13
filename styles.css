@@ -1,71 +1,101 @@
 #logo {
-    width : 300px
+  width : 300px
 }
-
+header {
+  background-color:bisque;
+  position: absolute; 
+  top: 0px; 
+  left: 5;
+}
 body {
-    background-color: bisque;
+  background-color: bisque;
 }
-
+h3 {
+  font-size: 1.5em;
+  font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
 .meat-avatar {
-    justify-self: center;
-    height: 12rem;
-    width: auto;
-  }
-
-  .card {
-    text-align: center;
-    border: grey solid 1px;
-    padding: 1rem;
-    width: 15rem;
-    height: 25rem;
-    display: inline-grid;
-    margin: 1rem 2rem;
-    box-shadow: 3px 4px  rgb(172, 105, 61)
-  }
-
-  button {
-    position: relative;
-    background-color: rgb(172, 105, 61);
-    border: none;
-    border-radius: 5px;
-    height: 3rem;
-    width: max-content;
-    color: whitesmoke;
-    font-size: 18px;
-    justify-self: center;
-  }
-
-  .meat-avatar:hover{
-    background-color: rgb(172, 105, 61);
-    border: rgb(121, 72, 40) solid 1px;
-    color: rgb(172, 105, 61);
-  }
+  justify-self: center;
+  height: 12rem;
+  width: 15rem;
+}
+.card {
+  text-align: center;
+  border: grey solid 1px;
+  padding: 1rem;
+  width: 15rem;
+  height: 25rem;
+  display: inline-grid;
+  margin: 1rem 2rem;
+  margin-left: 0rem;
+  box-shadow: 3px 4px  rgb(172, 105, 61);
+  justify-self: center;
+}
+#sidebar {
+  text-align: center;
+  border: grey solid 1px;
+  padding: 1;
+  width: 15rem;
+  height: 25rem;
+  display: inline-grid;
+  margin: 0rem 0rem;
+  box-shadow: 3px 4px  rgb(172, 105, 61)
+}
+.logo{  
+  justify-self: center;
+  width: 400;
+  height: 300;
+}
+button {
+  position: relative;
+  /* background-color: rgb(172, 105, 61); */
+  background: none;
+  border: none;
+  border-radius: 5px;
+  height: 3rem;
+  width: max-content;
+  color: whitesmoke;
+  font-size: 18px;
+  justify-self: center;
+}
+.card-btn {
+  position: relative;
+  background-color:none;
+  border: none;
   
-
-  button:hover {
-    background-color: rgb(172, 105, 61);
-    border: rgb(121, 72, 40) solid 1px;
-    color: rgb(172, 105, 61);
-  }
-
-  .add-meat-form {
-    width: 80%
-  }
-
-  .submit {
-    position: relative;
-    background-color: rgb(172, 105, 61);
-    border-radius: 5px;
-    height: 2rem;
-    width: max-content;
-    color: whitesmoke;
-    font-size: 18px;
-    justify-self: center;
-    font-family: monospace;
-    margin: 3px;
-  }
-
-
-  #meat-platter {
-    margin: 2rem;
-  }
+  height: 3rem;
+  width: max-content;
+  color: rgb(205, 164, 2);
+  font-size: 18px;
+  justify-self: center;
+}
+.meat-avatar:hover{
+  background-color: rgb(172, 105, 61);
+  border: rgb(121, 72, 40) solid 1px;
+  color: rgb(172, 105, 61);
+}
+button:hover {
+  background-color: rgb(172, 105, 61);
+  border: rgb(121, 72, 40) solid 1px;
+  color: rgb(250, 205, 26);
+}
+.add-meat-form {
+  width: 80%
+}
+.submit {
+  position: relative;
+  background-color: rgb(172, 105, 61);
+  border-radius: 5px;
+  height: 2rem;
+  width: max-content;
+  color: whitesmoke;
+  font-size: 18px;
+  justify-self: center;
+  font-family: monospace;
+  margin: 3px;
+}
+#Meat-Menu {
+  margin-left: 410;
+}

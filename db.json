@@ -9,7 +9,8 @@
             "type" : "Cured meat",
             "image" : "https://www.jamon.com/images/content/image-jamon-artisanal-hams.jpg",
             "description" : "Jamón is a kind of dry-cured ham produced in Spain. It is one of the most globally recognized food items of Spanish cuisine. It is also regularly a component of tapas. Most jamón is commonly called jamón serrano in Spain. Jamón is the Spanish word for ham.",
-            "favorite" : false
+            "favorite" : false,
+            "inCart" : false
         },
         {
             "id" : 2, 
@@ -20,7 +21,8 @@
             "type" : "Sausage",
             "image" : "https://worstroom.com/wp-content/uploads/2021/12/bratwurst-pork-sausage.jpg",
             "description" : "Bratwurst is a type of German sausage made from pork or, less commonly, beef or veal. The name is derived from the Old High German Brätwurst, from brät-, finely chopped meat, and Wurst, sausage, although in modern German it is often associated with the verb braten, to pan fry or roast.",
-            "favorite" : false
+            "favorite" : false,
+            "inCart" : false
         },
         {
             "id" : 3,
@@ -31,7 +33,8 @@
             "type" : "Sausage",
             "image" : "http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcQX4S7_7m2eCbM5-GtDxkk7-WI7kiYpQnmK8FrFFLR9HP3tKhy6fjks5UkqQbKLfS8m",
             "description" : "Chorizo is a type of pork cured meat originating from the Iberian Peninsula. In Europe, chorizo is a fermented, cured, smoked meat, which may be sliced and eaten without cooking, or added as an ingredient to add flavor to other dishes.",
-            "favorite" : false
+            "favorite" : false,
+            "inCart" : false
         },
         {
             "id" : 4,
@@ -42,7 +45,8 @@
             "type" : "Sausage",
             "image" : "https://nymtc.com/wp-content/uploads/KUROBUTA-SAUSAGE.jpg",
             "description" : "Berkshire, also known as kurobuta, is a breed of black-haired pig with extremely rich marbling, excellent flavor, and high umami content. These Japanese sausages are produced using this high quality pork resulting in an abundantly umami taste and rich nutty flavor accented by light smoking.",
-            "favorite" : false
+            "favorite" : false,
+            "inCart" : false
         },
         {
             "id" : 5,
@@ -53,7 +57,8 @@
             "type" : "Sausage",
             "image" : "https://cdn.shopify.com/s/files/1/0618/0906/6161/products/ButifarraCooked_1100x.jpg?v=1653429006",
             "description" : "Botifarra (Spanish: butifarra; French: boutifarre) is a type of sausage and one of the most important dishes of the Catalan cuisine. Botifarra is based on ancient recipes, either the Roman sausage botulu or the lucanica, made of raw pork and spices, with variants today in Italy and in the Portuguese and Brazilian linguiça.",
-            "favorite" : false
+            "favorite" : false,
+            "inCart" : false
         },
         {
             "id" : 6,
@@ -64,7 +69,8 @@
             "type" : "Sausage",
             "image" : "https://bakeitwithlove.com/wp-content/uploads/2022/09/what-is-frankfurter.jpg",
             "description" : "A Frankfurter Würstchen is a thin parboiled sausage in a casing of sheep's intestine. The flavor is acquired by a method of low temperature smoking. For consumption, Frankfurters are occasionally not boiled; they are heated in hot water for only about eight minutes to prevent the skin from bursting.",
-            "favorite" : false
+            "favorite" : false,
+            "inCart" : false
         },
         {
             "id" : 7,
@@ -75,8 +81,248 @@
             "type" : "Cured meat",
             "image" : "https://images.squarespace-cdn.com/content/v1/5bfea41c7e3c3aa110442bfb/1602698321697-0KIWUXCTD1XEK8HLM2TC/Soppressata.jpg?format=1500w",
             "description" : "Salami is a cured sausage consisting of fermented and air-dried meat, typically pork. Historically, salami was popular among Southern, Eastern, and Central European peasants because it can be stored at room temperature for up to 45 days once cut, supplementing a potentially meager or inconsistent supply of fresh meat.",
-            "favorite" : false
-        }
+            "favorite" : false,
+            "inCart" : false
+        },
+        {
+            "id" : 8,
+            "name" : "British Bangers",
+            "price" : 1,
+            "origin" : "Britain",
+            "animal" : "Pork",
+            "type" : "Sausage",
+            "image" : "https://www.daringgourmet.com/wp-content/uploads/2019/09/Bangers-8-square.jpg",
+            "description" : "Bangers are the quintessential British breakfast sausage, forever immortalised by being half of the classic Bangers & Mash, and they have become famous internationally as 'bangers'. Bangers are not just one kind of sausage, the term bangers can refer to any British sausage and you will a variety of British sausages in the English breakfast depending on what part of the country you are in.",
+            "favorite" : false,
+            "inCart" :  false
+          },
+          {"id" : 9,
+          "name" : "Wieners",
+          "price" : 1.5,
+          "origin" : "Germany",
+          "animal" : "beef and pork",
+          "type" : "Sausage",
+          "image" : "https://images.squarespace-cdn.com/content/v1/552f35bee4b0955308211538/1429618528576-DOOYXBVVVKVCBXWU5K6L/image-asset.jpeg?format=1000w",
+          "description" : "A type of sausage made from a mixture of beef and pork, seasoned with spices and smoke-cured.",
+          "favorite" : false,
+          "inCart" : false
+        },
+        {
+"id" : 10,
+"name" : "Beef Wieners",
+"price" : 2,
+"origin" : "Germany",
+"animal" : "beef",
+"type" : "Sausage",
+"image" : "https://s3.amazonaws.com/grazecart/gratefulgraze/images/1550613209_5c6c7ad945512.jpg",
+"description" : "A type of sausage made from ground beef and seasoned with spices, smoke-cured and fully cooked.",
+"favorite" : false,
+"inCart" : false
+        },
+        {
+"id" : 11,
+"name" : "Franks",
+"price" : 1.5,
+"origin" : "USA",
+"animal" : "beef and pork",
+"type" : "Sausage",
+"image" : "https://hofmannsausage.com/wp-content/uploads/2020/10/German_Franks_Natural_Casing_grill.jpg",
+"description" : "A type of sausage made from a mixture of beef and pork, seasoned with spices and smoke-cured.",
+"favorite" : false,
+"inCart" : false
+        },
+        {
+"id" : 12,
+"name" : "Knackwurst",
+"price" : 2,
+"origin" : "Germany",
+"animal" : "beef and pork",
+"type" : "Sausage",
+"image" : "https://meadowhillfarms.com/wp-content/uploads/2021/01/301_KNACKWURST1.jpg",
+"description" : "A traditional German sausage made from a mixture of beef and pork, seasoned with spices and smoke-cured.",
+"favorite" : false,
+"inCart" : false
+        },
+        {
+"id" : 13,
+"name" : "Cheese & Onion Knackwurst",
+"price" : 2.5,
+"origin" : "Germany",
+"animal" : "beef and pork",
+"type" : "Sausage",
+"image" : "https://meadowhillfarms.com/wp-content/uploads/2021/01/611_GYULAI-540x405.jpg",
+"description" : "A traditional German sausage made from a mixture of beef and pork, seasoned with spices, smoke-cured, and filled with cheese and onions.",
+"favorite" : false,
+"inCart" : false
+        },
+        {
+            "id": 14,
+            "name": "Polish Rings",
+            "price": 1,
+            "origin": "Poland",
+            "animal": "Pork",
+            "type": "Smoked sausage",
+            "image": "https://www.meatsandsausages.com/public/images/sausage-recipes/ring-sausage.jpg",
+            "description": "A large, circular sausage made from ground pork and seasoned with spices like garlic and marjoram. Polish rings are often served as a main dish, sliced and grilled or fried.",
+            "favorite": false,
+            "inCart": false
+          },
+          {
+            "id": 15,
+            "name": "Snack Sausage",
+            "price": 1,
+            "origin": "United States",
+            "animal": "Beef and Pork",
+            "type": "Sausage",
+            "image": "https://insanelygoodrecipes.com/wp-content/uploads/2022/07/Chicken-and-Beef-Cocktail-Sausage-with-Tomatoes-and-Radish-683x1024.jpg",
+            "description": "A small, bite-sized sausage that is often used as a snack or appetizer. Snack sausages can be made from a variety of meats, including beef, pork, and poultry, and may be flavored with herbs and spices.",
+            "favorite": false,
+            "inCart": false
+          },
+          {
+            "id": 16,
+            "name": "Farm Sausage",
+            "price": 1,
+            "origin": "Unknown",
+            "animal": "Beef and Pork",
+            "type": "Sausage",
+            "image": "https://images.squarespace-cdn.com/content/v1/540136ade4b05f700aa76402/1518748058254-KD1ELKNSWP970FT4BDRW/sausages.png?format=2500w",
+            "description": "A type of sausage that is made from meat that is typically sourced from a local farm. Farm sausages can be made from a variety of meats, including pork, beef, and poultry, and may be flavored with herbs and spices.",
+            "favorite": false,
+            "inCart": false
+          },
+          {
+            "id": 17,
+            "name": "Beer Sausage",
+            "price": 1,
+            "origin": "United States",
+            "animal": "Pork",
+            "type": "Smoked sausage",
+            "image": "https://tornadoughalli.com/wp-content/uploads/2019/06/BEER-BRATS-12.jpg",
+            "description": "A type of sausage that is made by simmering pork in beer and then smoking it. Beer sausage has a slightly bitter, savory flavor that pairs well with other hearty foods and beer.",
+            "favorite": false,
+            "inCart": false
+          },
+          {
+            "id": 18,
+            "name": "Red Hots",
+            "price": 1,
+            "origin": "United States",
+            "animal": "Beef",
+            "type": "Frankfurter",
+            "image": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/514OcCXuzgL.jpg",
+            "description": "A type of beef sausage that is known for its spicy flavor. Red hots are a popular food item at American sporting events and picnics, often served hot in a hotdog bun with mustard and other toppings.",
+            "favorite": false,
+            "inCart": false
+          },
+          {
+            "id": 19,
+            "name": "Pepperoni Sticks",
+            "price": 1,
+            "origin": "Italy",
+            "animal": "Pork and beef",
+            "type": "Dry-cured sausage",
+            "image": "https://cdn.powered-by-nitrosell.com/product_images/26/6472/large-BoarsHead_PepperoniSticks_04.jpg",
+            "description": "A type of dry-cured sausage that is made from a mixture of pork and beef and flavored with spices, including paprika and red pepper flakes. Pepperoni sticks are a popular snack food and can also be used as a topping on pizza.",
+            "favorite": false,
+            "inCart": false
+          },
+          {
+            "id": 20,
+            "name": "Thuringer",
+            "price": 1,
+            "origin": "Germany",
+            "animal": "Pork",
+            "type": "Smoked sausage",
+            "image": "https://www.bradleysmoker.com/wp-content/uploads/2010/11/Smoked-Thuringer-Sausage-Recipe-scaled.jpeg",
+            "description": "A type of smoked sausage that originated in the Thuringia region of Germany. Thuringer is made from ground pork and seasoned with spices like caraway and garlic. It is often served as a main dish, sliced and grilled or fried.",
+            "favorite": false,
+            "inCart": false
+          },
+          {
+            "id": 21,
+            "name": "Braunschweiger",
+            "price": 1,
+            "origin": "Germany",
+            "animal": "Liver",
+            "type": "Liver sausage",
+            "image": "https://honest-food.net/wp-content/uploads/2022/09/braunschweiger-recipe.jpg",
+            "description": "A type of liver sausage that is made from pork liver, milk, and spices. Braunschweiger has a creamy, smooth texture and is often used as a spread or as a main dish, sliced and grilled or fried.",
+            "favorite": false,
+            "inCart": false
+          },
+          {
+            "id": 22,
+            "name": "Swedish Potato Sausage",
+            "price": 1,
+            "origin": "Sweden",
+            "animal": "Pork",
+            "type": "Fresh sausage",
+            "image": "https://dwellbymichelle.com/wp-content/uploads/2021/08/DWELL-Swedish-Potato-Sausage-Potatiskorv-480x270.jpg",
+            "description": "A type of fresh sausage that is made from ground pork and grated potatoes. Swedish potato sausage is seasoned with spices like allspice and nutmeg and is often served as a main dish, boiled or grilled.",
+            "favorite": false,
+            "inCart": false
+          },
+          {
+            "id": 23,
+            "name": "Bockwurst",
+            "price": 1,
+            "origin": "Germany",
+            "animal": "Veal and pork",
+            "type": "Fresh sausage",
+            "image": "https://bakeitwithlove.com/wp-content/uploads/2022/09/what-is-bockwurst.jpg.webp",
+            "description": "A type of fresh sausage that is made from a mixture of veal and pork and seasoned with spices like parsley and chives. Bockwurst is often served with potatoes and gravy and is a popular food item at outdoor events and festivals.",
+            "favorite": false,
+            "inCart": false
+          },
+          {
+            "id": 24,
+            "name": "Weisswurst",
+            "price": 1,
+            "origin": "Germany",
+            "animal": "Veal",
+            "type": "Fresh sausage",
+            "image": "https://honest-food.net/wp-content/uploads/2021/04/weisswurst.jpg",
+            "description": "A type of fresh sausage that is made from veal and flavored with spices like lemon and cardamom. Weisswurst is a staple of Bavarian cuisine and is typically served with sweet mustard and a soft pretzel.",
+            "favorite": false,
+            "inCart": false
+          },
+          {
+            "id": 25,
+            "name": "Chicken Italian",
+            "price": 1,
+            "origin": "Italy",
+            "animal": "Chicken",
+            "type": "Fresh sausage",
+            "image": "https://shop.maestrosausage.com/wp-content/uploads/2020/04/ChickenItalianStackWhiteBackground.png",
+            "description": "A type of fresh sausage that is made from ground chicken and flavored with Italian herbs and spices, like basil and fennel. Chicken Italian is a healthier alternative to traditional pork sausages and can be grilled or boiled.",
+            "favorite": false,
+            "inCart": false
+          },
+          {
+            "id": 26,
+            "name": "Apple Cinnamon Links",
+            "price": 1,
+            "origin": "Germany",
+            "animal": "Pork",
+            "type": "Fresh sausage",
+            "image": "https://cdn.shopify.com/s/files/1/0668/2207/articles/IMG_6307_2000x.jpg?v=1622812119",
+            "description": "A type of fresh sausage that is made from ground pork and flavored with apple and cinnamon. Apple cinnamon links have a sweet, slightly spicy flavor and are often served as a breakfast food or as a topping on waffles or pancakes.",
+            "favorite": false,
+            "inCart": false
+          },
+          {
+            "id": 27,
+            "name": "Spanish Chorizo",
+            "price": 1,
+            "origin": "Spain",
+            "animal": "Pork",
+            "type": "Cured sausage",
+            "image": "https://www.gourmetfoodstore.com/images/product/large/terroirs-d-antan-chorizo-espanol-dry-cured-1s-2564.jpg",
+            "description": "A type of cured sausage that is made from ground pork and flavored with smoked paprika and other spices. Spanish chorizo can be sliced and eaten as a snack or used as a flavoring in dishes like paella.",
+            "favorite": false,
+            "inCart": false
+          }
 
 
     ],
@@ -86,21 +332,21 @@
             "name" : "Our First T",
             "price" : 1,
             "type" : "T-shirt",
-            "image" : ""
+            "image" : "sources/T shirt.png"
         },
         {
             "id" : 2,
             "name" : "Our First Hat",
             "price" : 1,
             "type" : "Hat",
-            "image" : ""
+            "image" : "sources/Hat.png"
         },
         {
             "id" : 3,
             "name" : "Deodorant",
             "price" : 1,
             "type" : "toiletries",
-            "image" : ""
+            "image" : "sources/Deodorant.png"
         }
 
 
