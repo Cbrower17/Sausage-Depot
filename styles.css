@@ -1,10 +1,10 @@
 #logo {
-  width : 300px
+  width: 300px;
 }
 header {
-  background-color:bisque;
-  position: absolute; 
-  top: 0px; 
+  background-color: bisque;
+  position: absolute;
+  top: 0px;
   left: 5;
 }
 body {
@@ -12,45 +12,43 @@ body {
 }
 h3 {
   font-size: 1.5em;
-  font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  font-family: Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-weight: bold;
   margin-bottom: 0.5em;
 }
 .meat-avatar {
-  justify-self: center;
-  height: 12rem;
-  width: 15rem;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 .card {
   text-align: center;
-  border: grey solid 1px;
+  border: rgb(0, 0, 0) solid 2px;
   padding: 1rem;
   width: 15rem;
-  height: 25rem;
+  height: 27rem;
   display: inline-grid;
   margin: 1rem 2rem;
-  margin-left: 0rem;
-  box-shadow: 3px 4px  rgb(172, 105, 61);
-  perspective: 1000px;
+  margin-right: 1rem;
+  box-shadow: 3px 4px rgb(172, 105, 61);
 }
 #sidebar {
   text-align: center;
-  border: grey solid 1px;
+  border: rgb(0, 0, 0) solid 1px;
   padding: 1;
   width: 15rem;
   height: 25rem;
   display: inline-grid;
   margin: 0rem 0rem;
-  box-shadow: 3px 4px  rgb(172, 105, 61)
+  box-shadow: 3px 4px rgb(172, 105, 61);
 }
-.logo{  
+.logo {
   justify-self: center;
   width: 400;
   height: 300;
 }
 button {
   position: relative;
-  /* background-color: rgb(172, 105, 61); */
   background: none;
   border: none;
   border-radius: 5px;
@@ -60,29 +58,19 @@ button {
   font-size: 18px;
   justify-self: center;
 }
-.card-btn {
-  position: relative;
-  background-color:none;
-  border: none;
-  
-  height: 3rem;
-  width: max-content;
-  color: rgb(205, 164, 2);
-  font-size: 18px;
-  justify-self: center;
+
+.meat-avatar:hover {
+  background-color: rgb(11, 11, 11);
+  border: rgb(0, 0, 0) solid 1px;
+  color: rgb(8, 8, 8);
 }
-/* .meat-avatar:hover{
-  background-color: rgb(172, 105, 61);
-  border: rgb(121, 72, 40) solid 1px;
-  color: rgb(172, 105, 61);
-} */
 button:hover {
   background-color: rgb(172, 105, 61);
   border: rgb(121, 72, 40) solid 1px;
   color: rgb(250, 205, 26);
 }
 .add-meat-form {
-  width: 80%
+  width: 80%;
 }
 .submit {
   position: relative;
@@ -97,59 +85,92 @@ button:hover {
   margin: 3px;
 }
 #Meat-Menu {
-  margin-left: 410;
+  margin-left: 400;
 }
-
-/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
-.flip-card {
-  background-color: transparent;
-  width: 300px;
-  height: 200px;
-  border: 1px solid #f1f1f1;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
-}
-
-/* This container is needed to position the front and back side */
-.card-innards {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style:preserve-3d;
-}
-
-/* Do an horizontal flip when you move the mouse over the flip box container */
-.card:fsfd .card-innards {
-  transform: rotateY(180deg);
-}
-
-/* Position the front and back side */
-.card-front, .card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden; /* Safari */
-  backface-visibility: hidden;
-}
-
-/* Style the front side (fallback if image is missing) */
-/* .card-front {
-  color: black;
-} */
-
-/* Style the back side */
-.card-back {
-  background-color: bisque;
-  color: black;
-  transform: rotateY(180deg);
-}
-
 p {
   font-weight: bold;
 }
-
-
-.zoom:hover {
-  transform: scale(1.75); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+button:hover {
+  cursor: pointer;
 }
+#sidebar h2:hover {
+  cursor: pointer;
+}
+#Meat img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.card img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+.card {
+  width: 240px;
+  height: 370px;
+  position: relative;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+.card-flip {
+  transform: rotateY(180deg);
+}
+.card-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+.card-btn:hover {
+  color: #f00;
+}
+.favorite-btn {
+  text-shadow: -.5 .5 0 #000, .5 .5 0 #000, .5 -.5 0 #000,
+    -.5 -.5 0 #000;
+}
+.card-flip {
+  transform: rotateY(180deg);
+}
+.card-front,
+.card-back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+}
+.card-back {
+  transform: rotateY(180deg);
+}
+.card-details {
+  padding: 20px;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+}
+.card {
+  /* other styles... */
+  cursor: pointer;
+}
+.card-details button {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.card-name {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0.5rem;
+  background-color: rgba(0, 0, 0, 0);
+  color: #fff;
+}
+
+
