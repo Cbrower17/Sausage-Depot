@@ -136,6 +136,45 @@ function renderCheese(cheese) {
   document.querySelector("#Meat-Menu").appendChild(cheeseCard);
 }
 
+function renderMerch(merch) {
+  let merchCard = document.createElement("div");
+  merchCard.setAttribute("class", "card");
+  let merchCardFront = document.createElement("div");
+  merchCardFront.setAttribute("class", "card-front");
+  merchCardFront.style.backgroundImage = `url(${merch.image})`;
+  merchCardFront.style.backgroundSize = "cover";
+  merchCardFront.style.backgroundPosition = "center";
+  let merchName = document.createElement("h3");
+  merchName.setAttribute("class", "card-name");
+  merchName.textContent = merch.name;
+  merchCardFront.appendChild(merchName);
+  merchCard.appendChild(merchCardFront);
+  let merchCardBack = document.createElement("div");
+  merchCardBack.setAttribute("class", "card-back");
+  merchCardBack.style.backgroundColor = "#ccc";
+  let merchDetails = document.createElement("div");
+  merchDetails.setAttribute("class", "card-details");
+  let merchPrice = document.createElement("p");
+  merchPrice.textContent = `$${merch.price}`;
+  merchDetails.appendChild(merchPrice);
+  let addToCartBtn = document.createElement("button");
+  // addToCartBtn.textContent = "Add to Cart";
+  // addToCartBtn.setAttribute("class", "card-btn");
+  merchDetails.append(addToCartForm());
+  merchDetails.appendChild(addToCartBtn);
+  merchCardBack.appendChild(merchDetails);
+  let merchDescription = document.createElement("div");
+  merchDescription.setAttribute("class", "card-back-description");
+  merchDescription.textContent = merch.description;
+  merchCardBack.appendChild(merchDescription);
+  merchCard.appendChild(merchCardBack);
+  // Add click event listener to flip the card on click
+  merchCard.addEventListener("click", () => {
+    merchCard.classList.toggle("card-flip");
+  });
+  document.querySelector("#Meat-Menu").appendChild(merchCard);
+}
+
 function renderPage() {
   let logoImg = document.createElement("img");
   logoImg.setAttribute(
@@ -147,7 +186,7 @@ function renderPage() {
   let meats = document.createElement("h2");
   meats.textContent = "Meats";
   meats.addEventListener("click", () => {
-    showAll();
+    showMeats();
   });
 
   let favs = document.createElement("h2");
@@ -194,10 +233,7 @@ function showFavorites() {
 }
 
 
-function clearPage() {
-  let content = document.querySelector("#Meat-Menu");
-  content.innerHTML = "";
-}
+
 function showMerch() {
   clearPage();
   //render banner at the top of the page
@@ -248,47 +284,8 @@ function showCheese() {
       });
     });
 }
-function renderMerch(merch) {
-  let merchCard = document.createElement("div");
-  merchCard.setAttribute("class", "card");
-  let merchCardFront = document.createElement("div");
-  merchCardFront.setAttribute("class", "card-front");
-  merchCardFront.style.backgroundImage = `url(${merch.image})`;
-  merchCardFront.style.backgroundSize = "cover";
-  merchCardFront.style.backgroundPosition = "center";
-  let merchName = document.createElement("h3");
-  merchName.setAttribute("class", "card-name");
-  merchName.textContent = merch.name;
-  merchCardFront.appendChild(merchName);
-  merchCard.appendChild(merchCardFront);
-  let merchCardBack = document.createElement("div");
-  merchCardBack.setAttribute("class", "card-back");
-  merchCardBack.style.backgroundColor = "#ccc";
-  let merchDetails = document.createElement("div");
-  merchDetails.setAttribute("class", "card-details");
-  let merchPrice = document.createElement("p");
-  merchPrice.textContent = `$${merch.price}`;
-  merchDetails.appendChild(merchPrice);
-  let addToCartBtn = document.createElement("button");
-  // addToCartBtn.textContent = "Add to Cart";
-  // addToCartBtn.setAttribute("class", "card-btn");
-  merchDetails.append(addToCartForm());
-  merchDetails.appendChild(addToCartBtn);
-  merchCardBack.appendChild(merchDetails);
-  let merchDescription = document.createElement("div");
-  merchDescription.setAttribute("class", "card-back-description");
-  merchDescription.textContent = merch.description;
-  merchCardBack.appendChild(merchDescription);
-  merchCard.appendChild(merchCardBack);
-  // Add click event listener to flip the card on click
-  merchCard.addEventListener("click", () => {
-    merchCard.classList.toggle("card-flip");
-  });
-  document.querySelector("#Meat-Menu").appendChild(merchCard);
-}
 
-
-function showAll() {
+function showMeats() {
   clearPage();
   meatBanner = document.createElement("div");
   let bannerImg = document.createElement("img");
@@ -367,7 +364,12 @@ function cartListMaker() {
   });
   document.querySelector("#cart-container").appendChild(cartList);
 }
+//boiler plate stuff
 
+function clearPage() {
+  let content = document.querySelector("#Meat-Menu");
+  content.innerHTML = "";
+}
 let cartContainer = document.querySelector("#cart-container");
 let cartBtn = document.querySelector("#cartBtn");
 cartBtn.addEventListener("click",() => {
