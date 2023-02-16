@@ -396,7 +396,7 @@
     "cheese" : [{
         "id": 1,
         "name": "American cheese",
-        "price": "10 per pound",
+        "price": 10,
         "origin": "United States",
         "image": "https://store.pagelsponderosa.com/wp-content/uploads/2020/08/1yr-Cheddar-block-resized-2-scaled.jpg",
         "description": "A type of processed cheese that is made from a blend of milk, whey, and other ingredients. American cheese is known for its creamy texture and mild flavor, and is often used as a sandwich filling or as a topping on burgers.",
@@ -406,7 +406,7 @@
       {
         "id": 2,
         "name": "Cheddar cheese",
-        "price": "15 per pound",
+        "price": 15,
         "origin": "England",
         "image": "https://store.pagelsponderosa.com/wp-content/uploads/2020/08/Mild-Cheddar-Block-resized.jpg",
         "description": "A type of hard, smooth cheese that ranges in flavor from mild to sharp, depending on its age. Cheddar cheese is one of the most popular types of cheese in the world and is often used in sandwiches, on pizza, and in dishes like macaroni and cheese.",
@@ -416,7 +416,7 @@
       {
         "id": 3,
         "name": "Swiss cheese",
-        "price": "20 per pound",
+        "price": 20,
         "origin": "Switzerland",
         "image": "https://store.pagelsponderosa.com/wp-content/uploads/2020/08/Baby-Swiss-Cheddar-Block-resized-scaled.jpg",
         "description": "A type of semi-hard cheese that is known for its nutty, slightly sweet flavor and distinctive holes. Swiss cheese is often used in sandwiches and as a topping on dishes like burgers and casseroles.",
@@ -426,7 +426,7 @@
       {
         "id": 4,
         "name": "Provolone cheese",
-        "price": "15 per pound",
+        "price": 15,
         "origin": "Italy",
         "image": "https://store.pagelsponderosa.com/wp-content/uploads/2020/08/Monterey-Jack-Block-resized-600x600.jpg",
         "description": "A type of semi-hard cheese that is made from cow's milk and has a slightly nutty, sharp flavor. Provolone cheese is often used as a sandwich filling or as a topping on dishes like pizza.",
@@ -436,7 +436,7 @@
       {
         "id": 5,
         "name": "Mozzarella cheese",
-        "price": "12 per pound",
+        "price": 12,
         "origin": "Italy",
         "image": "https://store.pagelsponderosa.com/wp-content/uploads/2020/08/Mozzarella-Block-resized-scaled.jpg",
         "description": "A type of soft, fresh cheese that is made from buffalo or cow's milk. Mozzarella cheese is known for its mild, slightly tangy flavor and its stretchy texture, and is often used as a topping on dishes like pizza and as a filling for dishes like lasagna.",
@@ -446,7 +446,7 @@
       {
         "id": 6,
         "name": "Colby cheese",
-        "price": "10 per pound",
+        "price": 10,
         "origin": "United States",
         "image": "https://store.pagelsponderosa.com/wp-content/uploads/2020/08/Colby-Block-resized-scaled.jpg",
         "description": "A type of American cheese that is similar to cheddar cheese, but has a milder flavor and a softer texture. Colby cheese is often used in sandwiches and as a topping on dishes like tacos and nachos.",
@@ -456,7 +456,7 @@
       {
         "id": 7,
         "name": "Colby-Jack cheese",
-        "price": "15 per pound",
+        "price": 15,
         "origin": "United States",
         "image": "https://store.pagelsponderosa.com/wp-content/uploads/2020/08/Colby-Jack-Block-resized-scaled.jpg",
         "description": "A type of cheese that is a mixture of colby cheese and Monterey Jack cheese. Colby-Jack cheese has a mild, slightly sweet flavor and a smooth, creamy texture, and is often used as a sandwich filling or as a topping on dishes like burgers.",
@@ -466,7 +466,7 @@
       {
         "id": 8,
         "name": "Monterey Jack cheese",
-        "price": "20 per pound",
+        "price": 20,
         "origin": "United States",
         "image": "https://store.pagelsponderosa.com/wp-content/uploads/2020/08/Monterey-Jack-Block-resized-scaled.jpg",
         "description": "A type of semi-hard cheese that is made from cow's milk and has a mild, slightly nutty flavor. Monterey Jack cheese is often used as a sandwich filling or as a topping on dishes like tacos and nachos.",
@@ -476,7 +476,7 @@
       {
         "id": 9,
         "name": "Gouda cheese",
-        "price": "20 per pound",
+        "price": 20,
         "origin": "Netherlands",
         "image": "https://store.pagelsponderosa.com/wp-content/uploads/2020/08/Smoked-Cheddar-Block-resized-600x600.jpg",
         "description": "A type of semi-hard cheese that is made from cow's milk and has a nutty, slightly sweet flavor. Gouda cheese can range in age from young to old, with older gouda having a stronger flavor. It is often used as a snack or as a topping on dishes like sandwiches and burgers.",
@@ -487,7 +487,7 @@
       {
         "id": 10,
         "name": "Feta cheese",
-        "price": "15 per pound",
+        "price": 15,
         "origin": "Greece",
         "image": "https://www.whynotdiy.me/wp-content/uploads/2021/06/Feta-cheese-shot-2-scaled.jpg",
         "description": "A type of brined cheese that is made from sheep's milk or a mixture of sheep's and goat's milk. Feta cheese has a tangy, slightly salty flavor and a crumbly texture, and is often used as a topping on dishes like salads and pizzas.",
@@ -497,7 +497,7 @@
       {
         "id": 11,
         "name": "Parmesan cheese",
-        "price": "25 per pound",
+        "price": 25,
         "origin": "Italy",
         "image": "https://store.pagelsponderosa.com/wp-content/uploads/2021/03/13-Cheddar-Block-resized-scaled.jpg",
         "description": "A type of hard, salty cheese that is made from cow's milk and has a nutty, slightly sharp flavor. Parmesan cheese is often grated and used as a topping on dishes like pasta and soups, or as a snack with crackers.",
@@ -507,7 +507,7 @@
       {
         "id": 12,
         "name": "Muenster cheese",
-        "price": "10 per pound",
+        "price": 10,
         "origin": "Germany",
         "image": "https://store.pagelsponderosa.com/wp-content/uploads/2020/08/Muenster-Block-resized-scaled.jpg",
         "description": "A type of semi-soft cheese that is made from cow's milk and has a mild, slightly tangy flavor. Muenster cheese is often used as a sandwich filling or as a topping on dishes like burgers and grilled cheese sandwiches.",
@@ -517,7 +517,7 @@
       {
         "id": 13,
         "name": "Gorgonzola cheese",
-        "price": "20 per pound",
+        "price": 20,
         "origin": "Italy",
         "image": "https://gootessacheese.com/wp-content/uploads/2020/05/P12_Der-Edel-Bleu-Kase.jpg",
         "description": "A type of blue cheese that is made from cow's milk and has a tangy, slightly spicy flavor. Gorgonzola cheese is often used as a topping on dishes like salads and pizzas, or as a snack with crackers.",
@@ -527,7 +527,7 @@
       {
         "id": 14,
         "name": "Havarti cheese",
-        "price": "15 per pound",
+        "price": 15,
         "origin": "Denmark",
         "image": "https://store.pagelsponderosa.com/wp-content/uploads/2020/08/2yr-cheddar-Block-resized-600x600.jpg",
         "description": "A type of semi-soft cheese that is made from cow's milk and has a mild, slightly tangy flavor. Havarti cheese is often used as a sandwich filling or as a topping on dishes like burgers and grilled cheese sandwiches.",
@@ -537,7 +537,7 @@
       {
         "id": 15,
         "name": "Pepper Jack cheese",
-        "price": "10 per pound",
+        "price": 10,
         "origin": "United States",
         "image": "https://store.pagelsponderosa.com/wp-content/uploads/2020/08/Pepper-Jack-Block-resized-scaled.jpg",
         "description": "A type of cheese that is a mixture of Monterey Jack cheese and jalapeno peppers. Pepper Jack cheese has a mild, slightly spicy flavor and is often used as a sandwich filling or as a topping on dishes like tacos and nachos.",
@@ -547,7 +547,7 @@
       {
         "id": 16,
         "name": "Jarlsberg cheese",
-        "price": "15 per pound",
+        "price": 15,
         "origin": "Norway",
         "image": "https://www.norseland.co.uk/wp-content/uploads/2016/04/jarlsberg.jpg",
         "description": "A type of semi-hard cheese that is made from cow's milk and has a mild, nutty flavor. Jarlsberg cheese is often used as a sandwich filling or as a topping on dishes like salads and burgers.",

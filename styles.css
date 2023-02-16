@@ -1,5 +1,6 @@
-#logo {
-  width: 300px;
+.banner {
+  width: 100%;
+  justify-self: right;
 }
 header {
   background-color: bisque;
@@ -41,7 +42,7 @@ body {
 }
 .logo {
   justify-self: center;
-  width: 400;
+  width: 100%;
   height: 300;
 }
 button {
@@ -192,7 +193,7 @@ button:hover {
 .card-flip .card-back-description {
   visibility: visible;
 }
-#cart-container {
+.cart-container {
   position: fixed;
   background-color: rgb(255, 255, 255);border: #000;
   height: 60%;
@@ -200,6 +201,9 @@ button:hover {
   margin-left: 34%;
   margin-top: 10%;
   overflow-y: scroll; 
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  
 }
 #cart-list {
 position: relative;
@@ -276,11 +280,27 @@ height: 10%;
 }
 
 .cart-total { 
-  left: 80%;
+  /* left: 80%;
   top: 85%;
-  position: absolute;
+  position: fixed absolute;
   background-color: bisque;
-  background-size: 1.5;
+  border: 1px solid rgb(0, 0, 0); */
+
+  border-radius: 2px;
+}
+
+.total-holder {
+  right: 5.35%;
+  bottom:10.6%;
+  
+  position: fixed;
+  background-color: white;
+  text-align: center;
+  width: 10%;
   border-radius: 2px;
   border: 1px solid rgb(0, 0, 0);
+}
+#cartBtn{
+  background: none;
+  border: none;
 }
