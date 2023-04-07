@@ -2,6 +2,10 @@
 Sausage depot is a fictional sausage company that supplies award winning meats and cheases to online buyers.
 
 # Usage
+
+first make sure to run 'json-server --watch db.json'
+then open the the index.HTML in a live server
+
 This website is designed to provide an online shopping experience for customers who are interested in purchasing meat and other related products. The code behind the site includes various functions that interact with a server to fetch and display data about different products.
 
 Upon loading the page, the renderPage() function is called, which generates the layout and structure of the site. This includes creating a top banner, logo, and navigation bar with options to view meat, cheese, merchandise, a charcuterie board generator, and favorites. These options are clickable and call various functions to display relevant content on the page.
